@@ -3,13 +3,25 @@
 > Enforce code quality and modern development practices
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-2.1.1-blue.svg)](https://github.com/tylerbryy/codewarden)
+[![Version](https://img.shields.io/badge/version-2.1.2-blue.svg)](https://github.com/tylergibbs1/codewarden)
 
 **Created by [Tyler Gibbs](https://www.tylergibbs.dev/about)**
 
 ## Overview
 
 CodeWarden is a Claude Code plugin for enforcing modern development practices, code quality standards, and security best practices in TypeScript/React/Next.js applications. The plugin ensures your code meets strict standards for quality, accessibility, and security.
+
+## Philosophy
+
+This plugin is built on these core principles:
+
+1. Safety First: Never break working code
+2. Server-First: Use Server Components and Server Actions
+3. Type Safety: Strict TypeScript with no escape hatches
+4. Accessibility: WCAG compliance is non-negotiable
+5. Security: Defense in depth, validate everything
+6. Performance: Optimize for Core Web Vitals
+7. Maintainability: Code should be easy to understand
 
 ## Demo
 
@@ -21,7 +33,7 @@ CodeWarden is a Claude Code plugin for enforcing modern development practices, c
 
 ```bash
 # In Claude Code
-/plugin marketplace add https://github.com/tylerbryy/codewarden
+/plugin marketplace add https://github.com/tylergibbs1/codewarden
 
 # Install the plugin
 /plugin install codewarden
@@ -31,7 +43,7 @@ CodeWarden is a Claude Code plugin for enforcing modern development practices, c
 
 ```bash
 # Clone the repository
-git clone https://github.com/tylerbryy/codewarden.git
+git clone https://github.com/tylergibbs1/codewarden.git
 cd codewarden
 
 # Add local marketplace
@@ -48,7 +60,7 @@ Add to your project's `.claude/settings.json`:
 ```json
 {
   "pluginMarketplaces": [
-    "https://github.com/tylerbryy/codewarden"
+    "https://github.com/tylergibbs1/codewarden"
   ],
   "plugins": {
     "codewarden": {
@@ -416,7 +428,7 @@ Skills activate automatically based on context. To manually invoke:
 
 ```bash
 # Clone the repository
-git clone https://github.com/tylerbryy/codewarden.git
+git clone https://github.com/tylergibbs1/codewarden.git
 cd codewarden
 
 # Make your changes to skills, commands, or agents
@@ -428,7 +440,7 @@ cd codewarden
 
 ### Contributing
 
-We welcome contributions. Please:
+We welcome contributions; read [CONTRIBUTING.md](CONTRIBUTING.md) first. In short:
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -439,24 +451,12 @@ We welcome contributions. Please:
 ### Publishing Updates
 
 ```bash
-# Update version in .claude-plugin/plugin.json
+# Update version in .claude-plugin/plugin.json and CHANGELOG.md
 # Commit and tag
 git commit -am "Release v1.1.0"
 git tag v1.1.0
 git push origin main --tags
 ```
-
-## Philosophy
-
-This plugin is built on these core principles:
-
-1. Safety First: Never break working code
-2. Server-First: Leverage Server Components and Server Actions
-3. Type Safety: Strict TypeScript with no escape hatches
-4. Accessibility: WCAG compliance is non-negotiable
-5. Security: Defense in depth, validate everything
-6. Performance: Optimize for Core Web Vitals
-7. Maintainability: Code should be easy to understand
 
 ## Roadmap
 
@@ -473,8 +473,7 @@ This plugin is built on these core principles:
 
 ## Support
 
-- [Issue Tracker](https://github.com/tylerbryy/codewarden/issues)
-- [Discussions](https://github.com/tylerbryy/codewarden/discussions)
+- [Issue Tracker](https://github.com/tylergibbs1/codewarden/issues)
 - [Email](mailto:tyler.gibbs@tensorpt.com)
 
 ## License
@@ -483,4 +482,4 @@ MIT License - see [LICENSE](LICENSE) file for details
 
 ---
 
-Built by [Tyler Gibbs](https://github.com/tylerbryy)
+Built by [Tyler Gibbs](https://github.com/tylergibbs1)
